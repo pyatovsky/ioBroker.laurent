@@ -25,7 +25,7 @@
         "keywords": ["template", "vis", "GUI", "graphical", "scada"],
         "readme": "https://github.com/ioBroker/ioBroker.template/blob/master/README.md",
         "loglevel": "info",
-        "type": "general",
+        "type": "general"
     },
     "native": {
 		"comment": "My Laurent",
