@@ -9,13 +9,13 @@ systemDictionary =
 	"On save adapter restarts with new config immediately":
 	{
 		"de": "Beim Speichern von Einstellungen der Adapter wird sofort neu gestartet.",
-		"ru": "При сохранении настроек адаптера он сразу же перезапускается"
+		"ru": "При сохранении настроек адаптера он сразу же перезапускается."
 	},
 	
 	"laurentInfo":
 	{
-		"en": "Information is present by Russian now",
-		"ru": "Это не принципиально, но нет смысла лишний раз создавать и дергать неиспользуемые переменные"
+		"en": "Information is present by Russian now...",
+		"ru": "Выбор компонентов, которые будут использоваться (реле, линии, и т.д.), сделан чтобы не плодить лишние переменные, которые все равно не нужны, не захламлять интерфейс и не тратить ресурсы на их обработку. Но в целом это не принципиально."
 	},
 	
 	"comment":

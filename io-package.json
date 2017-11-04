@@ -17,15 +17,17 @@
         "authors": [
             "Pavel Pyatovsky <Pyatovsky.SmartHome@gmail.com>"
         ],
+		"license": "GPL-3.0",
         "platform": "Javascript/Node.js",
         "mode": "daemon",
         "icon": "Laurent_Green.png",
         "enabled": true,
-        "extIcon": "https://github.com/pyatovsky/ioBroker.laurent/blob/master/admin/Laurent_Green.png",
-        "keywords": ["template", "vis", "GUI", "graphical", "scada"],
-        "readme": "https://github.com/ioBroker/ioBroker.template/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/pyatovsky/ioBroker.laurent/master/admin/Laurent_Green.png",
+        "keywords": ["laurent", "communication"],
+        "readme": "https://github.com/pyatovsky/ioBroker.laurent/blob/master/README.md",
         "loglevel": "info",
-        "type": "general"
+        "type": "hardware",
+		"localLink": "http://%native_IP%/protect"
     },
     "native": {
 		"comment": "My Laurent",
