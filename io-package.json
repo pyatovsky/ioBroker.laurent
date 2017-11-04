@@ -1,40 +1,31 @@
 {
     "common": {
         "name": "laurent",
-        "version": "0.0.2",
+        "version": "0.0.1",
         "news": {
-            "0.0.2": {
-                "en": "beta version",
-                
-                "ru": "Бета версия"
-                
-            },
             "0.0.1": {
-                "en": "initial adapter",
-                
-                "ru": "Первоначальный адаптер"
-                
+                "en": "Initial version",
+                "ru": "Первоначальная версия"
             }
         },
-        "title": "Laurent test adapter",
+        "title": "Laurent adapter",
         "desc": {
-            "en": "Laurent Adapter",
-            "ru": "Лоран адаптер"
+            "en": "Adapter for control Laurent ethernet relay",
+            "ru": "Плагин для управления ethernet-реле Лоран"
             
         },
         "authors": [
-            "Pavel <pyatovsky@gmail.com>"
+            "Pavel Pyatovsky <Pyatovsky.SmartHome@gmail.com>"
         ],
         "platform": "Javascript/Node.js",
         "mode": "daemon",
         "icon": "Laurent_Green.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.template/master/admin/template.png",
+        "extIcon": "https://github.com/pyatovsky/ioBroker.laurent/blob/master/admin/Laurent_Green.png",
         "keywords": ["template", "vis", "GUI", "graphical", "scada"],
         "readme": "https://github.com/ioBroker/ioBroker.template/blob/master/README.md",
         "loglevel": "info",
         "type": "general",
-        "restartAdapters": ["vis"]
     },
     "native": {
 		"comment": "My Laurent",
