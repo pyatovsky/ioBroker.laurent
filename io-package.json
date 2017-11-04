@@ -1,0 +1,70 @@
+{
+    "common": {
+        "name": "laurent",
+        "version": "0.0.2",
+        "news": {
+            "0.0.2": {
+                "en": "beta version",
+                
+                "ru": "Бета версия"
+                
+            },
+            "0.0.1": {
+                "en": "initial adapter",
+                
+                "ru": "Первоначальный адаптер"
+                
+            }
+        },
+        "title": "Laurent test adapter",
+        "desc": {
+            "en": "Laurent Adapter",
+            "ru": "Лоран адаптер"
+            
+        },
+        "authors": [
+            "Pavel <pyatovsky@gmail.com>"
+        ],
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "Laurent_Green.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.template/master/admin/template.png",
+        "keywords": ["template", "vis", "GUI", "graphical", "scada"],
+        "readme": "https://github.com/ioBroker/ioBroker.template/blob/master/README.md",
+        "loglevel": "info",
+        "type": "general",
+        "restartAdapters": ["vis"]
+    },
+    "native": {
+		"comment": "My Laurent",
+        "IP": "192.168.0.101",
+		"period": 10000,
+		"numRelays": 4,
+		"numOutlines": 12,
+		"numInlines": 6,
+		"enableSystemTime": false,
+		"enableTemperature": false,
+		"enableRelays": false,
+		"enableOutlines": false,
+		"enableInlines": false
+	},
+	"instanceObjects": [
+        {
+            "_id":  "info.connection",
+            "type": "state",
+            "common": {
+                "role":  "indicator.connected",
+                "name":  "If connected to Laurent",
+                "type":  "boolean",
+                "read":  true,
+                "write": false,
+                "def":   false
+            },
+            "native": {}
+        }
+    ],
+    "objects": [
+
+    ]
+}
