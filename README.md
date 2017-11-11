@@ -1,4 +1,7 @@
+![Logo](admin/Laurent_Green.png)
 # ioBroker.laurent
+=========================
+
 Плагин для управления модулем Laurent (http://www.kernelchip.ru/Laurent-2.php)
 
 ### Модели:
