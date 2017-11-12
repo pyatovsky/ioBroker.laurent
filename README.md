@@ -1,5 +1,4 @@
 ![Logo](admin/Laurent_Green.png)
-<<<<<<< HEAD
 # ioBroker Laurent Adapter
 =========================
 
@@ -31,11 +30,6 @@ The ability to select the components that will be used (relays, lines, etc.) is 
 ---
 ## Русский
 
-=======
-# ioBroker.laurent
-=========================
-
->>>>>>> b23e96d2b4fffbb0b7011c609215b6dd1ca1b5c9
 Плагин для управления модулем Laurent (http://www.kernelchip.ru/Laurent-2.php)
 
 ### Список поддерживаемых устройств:
@@ -57,8 +51,4 @@ The ability to select the components that will be used (relays, lines, etc.) is 
 Возможность выбора компонентов, которые будут использоваться (реле, линии, и т.д.), сделана чтобы не плодить лишние объекты, не захламлять интерфейс и не тратить ресурсы. Но в целом это не принципиально.
 
 ### История:
-<<<<<<< HEAD
 * Версия 0.0.1 - Начальная версия
-=======
-- Версия 0.0.1 - Начальная версия
->>>>>>> b23e96d2b4fffbb0b7011c609215b6dd1ca1b5c9
